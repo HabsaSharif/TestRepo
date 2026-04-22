@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Catch Up!</title>
+</head>
+
+<body>
+    <script>
+        console.time('timer');
+        var name = "Habsa";  // string type
+        var age = 21;  //Number type
+        var teacher = 0; // Boolean type: Notice all lowercase true
+        var truth = "So you make a variable (var) and when you console.log said variable, in the developer tools, you can go to the console (inspect) and the output of the var will be there to test if the code actually got up to there. hi cunts";
+        document.write('Name ' + name + '<br>');  // + is used for string concatentation
+        document.write('Age ' + age + 3 + '<br>');  // Try using + with another number and see what happens!
+        document.write('Is teacher? ' + teacher);
+	console.log(name);
+    console.log(truth);
+    console.timeEnd('timer');
+    </script>
+    <br>
+    <h1></h1>
+    <div id="content"></div>
+    <script>document.getElementById("content").innerHTML = name;</script>
+    <script>document.getElementsByTagName("h1")[0].innerHTML = age;</script>
+
+</body>
+
+</html>
